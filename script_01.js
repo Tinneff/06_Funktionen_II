@@ -13,8 +13,16 @@
 
 
 
+// module: addition a + b |  test:
+output(add(2,2));
+output(add(2,-2));
+output(add(2,0));
+function add(a,b) {
+	return a + b;
+}
 
-// module:  output | test:
+
+// module: output | test:
 // output("hello");
 // output(2);
 function output(outputData) {
