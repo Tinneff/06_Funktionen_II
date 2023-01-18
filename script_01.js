@@ -7,7 +7,7 @@
 
 1. Dateneingabe + -überprüfung :
 2. Auswahl Rechenart :
-3. Fkt. Grundrechenarten :
+3. Fkt. Grundrechenarten : check!
 4. Ausgabe in Konsole : check!
 */
 
@@ -20,11 +20,10 @@ output(divide(3,2));
 output(divide(3,-2));
 output(divide(3,0));
 function divide(a,b) {
-	if (b == 0) { //
+	if (b == 0) { 
 		return ERROR_STR_DIV;
-	} else {
-		return a / b;
-	}
+	} 
+	return a / b;
 }
 
 // module: multiplication a * b |  test:
